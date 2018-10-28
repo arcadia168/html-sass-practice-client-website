@@ -1,0 +1,324 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:300|Open+Sans:700);
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1;
+  background-color: #333333; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a, p {
+  font-family: 'Nunito', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #D6A401;
+  font-size: 16px; }
+  a:link {
+    color: #D6A401; }
+
+h1, li {
+  font-family: 'Open Sans', sans-serif; }
+
+/* Title */
+h1 {
+  font-size: 36px;
+  color: #D6A401;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin-bottom: 10px; }
+
+/* Menu Bar: */
+/* Some lovely nested SASS selectors here */
+nav {
+  text-align: center;
+  background: #292929;
+  border-top: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+  width: 100%;
+  height: 40px;
+  margin: 30px 0 40px 0px; }
+  nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0; }
+  nav li {
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    word-spacing: 3px;
+    font-size: 18px;
+    color: #D6A401;
+    line-height: 25px;
+    text-shadow: 0px 1px 0px #4A4A4A; }
+    nav li:link {
+      color: #D6A401;
+      text-decoration: none;
+      font-weight: 600; }
+    nav li:visited {
+      color: #A67006; }
+
+p, #classlist {
+  text-align: center;
+  font-size: 16px;
+  color: #A67006; }
+
+#classlist {
+  font-weight: normal;
+  line-height: 3em;
+  color: #D6A401; }
+
+#oyston_mill, #iron_man_combat_centre {
+  margin: 0 auto; }
+
+#welcome {
+  font-size: 18px;
+  color: #D6A401; }
+
+iframe {
+  margin: 5% auto;
+  display: block; }
+
+#contactus {
+  margin: auto auto;
+  padding-top: 2%;
+  width: 80%; }
+
+section p {
+  line-height: 20px;
+  padding-top: 2%;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  margin-top: -3%;
+  margin-left: 10%;
+  text-align: center;
+  width: 80%; }
+
+footer p {
+  margin-top: 15px; }
+
+/* Main Content Div: */
+section {
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: #292929;
+  border: 1px solid #979797;
+  overflow: hidden;
+  padding-bottom: 1em; }
+
+#main {
+  /* padding-top: 1%; */
+  padding: auto auto 3% auto;
+  margin-top: 1%;
+  margin: auto;
+  max-width: 750px; }
+  #main img {
+    margin: 3% auto 3% auto; }
+
+#logo {
+  margin: 0 auto;
+  display: block;
+  margin-top: -3%;
+  margin-bottom: -3%; }
+
+/* Has to cascade down from the above rule */
+#club {
+  display: block;
+  clear: none;
+  margin: 0 auto;
+  padding: -5%; }
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 20px; }
+  footer a {
+    display: inline;
+    clear: left;
+    clear: right;
+    text-align: center;
+    padding: 10px; }
+
+#fb-logo {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px; }
+
+/* Styling the gallery js plugin*/
+#galleria {
+  margin: 0 auto;
+  max-width: 750px;
+  height: 650px;
+  background: #292929; }
+
+/* STYLING THE CONTACT US BOX */
+/* below line is write to use google font online */
+h2, address {
+  font-family: avenirnext-bold, sans-serif;
+  font-size: 1.2em;
+  color: #D6A401;
+  letter-spacing: 2px;
+  margin: 3%;
+  text-align: center; }
+
+input {
+  height: 10px;
+  width: 60%; }
+
+#form_sample {
+  text-align: center;
+  border: 1px solid #ccc;
+  width: 85%;
+  padding: 5px 50px 15px;
+  margin-top: 30px;
+  box-shadow: 0 0 15px;
+  border-radius: 6px;
+  float: left;
+  padding-bottom: 3%;
+  margin-bottom: 3%; }
+
+label {
+  font-family: avenirnext-regular, sans-serif;
+  color: #D6A401;
+  float: left;
+  font-size: 16px; }
+
+input[type="text"] {
+  width: 100%;
+  margin-top: 10px;
+  height: 5%;
+  margin-bottom: 25px;
+  padding: 10px;
+  border: 1px solid #979797; }
+
+textarea {
+  width: 100%;
+  border: 1px solid #979797;
+  padding: 10px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  height: 75px; }
+
+/* Styling the submit button */
+input[type="submit"] {
+  width: 15%;
+  height: 10%;
+  margin: 0 auto;
+  padding: auto auto;
+  background-color: #474747;
+  border: none;
+  border-radius: 5px;
+  color: #D6A401;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer; }
+
+/* RESPONSIVE CSS */
+@media only screen and (min-width: 770px) and (max-width: 930px) {
+  #main, #galleria {
+    margin: auto 10% auto 10%; }
+
+  #galleria {
+    height: 450px; }
+
+  #club {
+    width: 600px;
+    height: 417px; } }
+@media only screen and (min-width: 320px) and (max-width: 770px) {
+  /* As size is reduced, reduce padding on main menu items */
+  nav {
+    height: 10%; }
+
+  nav li {
+    padding: 5%;
+    margin: 0;
+    display: inline;
+    word-spacing: 5px; }
+
+  #logo {
+    width: 300px;
+    height: 270px; }
+
+  #club {
+    display: none; }
+
+  #main, #galleria {
+    padding: 1%;
+    margin: auto 10% auto 10%; }
+
+  #galleria {
+    height: 400px; }
+
+  iframe {
+    width: 95%;
+    height: 200px; }
+
+  /* STYLES GO HERE */ }
+@media only screen and (min-device-width: 320px) and (max-device-width: 770px) and (orientation: landscape) {
+  nav li {
+    padding: 5%;
+    margin: 3%;
+    display: inline;
+    word-spacing: 10px; }
+
+  iframe {
+    width: 85%;
+    height: 200px; }
+
+  #main {
+    padding: 2%; }
+
+  .wrapper {
+    margin-top: 20px;
+    padding-top: 10px; }
+
+  /* STYLES GO HERE */ }
+
+/*# sourceMappingURL=main.css.map */
